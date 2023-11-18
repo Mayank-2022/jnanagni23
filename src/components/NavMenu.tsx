@@ -15,7 +15,7 @@ export const navItems = [
     text: 'About Us',
   },
   {
-    href: '/events',
+    href: '#',
     text: 'Event',
   },
   {
@@ -23,11 +23,11 @@ export const navItems = [
     text: 'Gallery',
   },
   {
-    href: '/ourteam',
+    href: '#',
     text: 'Our Team',
   },
   {
-    href: '/sponsors',
+    href: '#',
     text: 'Sponsors',
   }
 ];

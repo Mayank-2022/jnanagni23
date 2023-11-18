@@ -10,7 +10,6 @@ const Container = (props: any) => {
     const router = useRouter();
 
     const [loading, setLoading] = useState(false);
-    const [userPaid, setUserPaid] = React.useState(false)
 
     useEffect(() => {
         const handleStart = (url: any) => url !== router.asPath && setLoading(true);
